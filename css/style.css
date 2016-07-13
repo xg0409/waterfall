@@ -1,0 +1,100 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	background: #f7f7f7 url(../img/pattern.png) repeat top left;
+}
+
+@media(max-width:767px) {
+	.grid-item {
+		width: 50% !important;
+	}
+}
+
+@media(min-width:768px) and (max-width:979px) {
+	.grid-item {
+		width: 25% !important;
+	}
+}
+
+@media(min-width:980px) and (max-width:1133px) {
+	.grid-item {
+		width: 20%;
+	}
+}
+
+.grid-item {
+	background-color: #fff;
+	overflow: hidden;
+	width: 20%;
+}
+
+.gird-content {
+	margin: 5px;
+}
+
+.grid-item img {
+	width: 100%;
+}
+
+.layout-main {
+	max-width: 1200px;
+	margin: auto auto;
+}
+
+.layout-main h3 {
+	word-break: break-all;
+	margin: 10px 10px;
+	color: #333333;
+	line-height: 120%;
+}
+
+.comment {
+	margin: 10px 10px 20px 10px;
+	clear: both;
+	overflow: auto;
+	color: #999999;
+}
+
+.comment .comment-content {
+	float: left;
+	width: 80%;
+	line-height: 120%;
+}
+
+.comment-num .icon {
+	display: block;
+	width: 16px;
+	height: 16px;
+	background: url('../img/common.png') 0 0 no-repeat;
+	margin: auto auto 5px auto;
+}
+
+.comment .comment-num {
+	float: right;
+	width: 20%;
+	text-align: center;
+}
+
+.popup-content{
+	/*position: fixed !important;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;*/
+	width:80%;
+	margin: auto auto;
+	background-color: #FFFFFF;
+}
+.tt{
+	height: 100px;
+}
+
+button {
+	font-size: 20px;
+	position: fixed;
+	bottom: 0;
+	height: 50px;
+}
